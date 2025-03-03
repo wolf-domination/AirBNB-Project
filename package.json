@@ -1,0 +1,39 @@
+{
+    "name": "aa12-authenticate-me",
+    "version": "1.0.0",
+    "description": "This repo contains different versions of the starter code for **aa12-authenticate-me**, with each version stored in a program-specific branch. To download or clone the correct branch, choose a method (`tiged`, zip, or clone) and follow the instructions for your specific program.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "db:migrate": "npx sequelize-cli db:migrate",
+        "db:seed": "npx sequelize-cli db:seed:all"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/appacademy/aa12-authenticate-me.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/appacademy/aa12-authenticate-me/issues"
+    },
+    "homepage": "https://github.com/appacademy/aa12-authenticate-me#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "helmet": "^8.0.0",
+        "morgan": "^1.10.0",
+        "mysql2": "^3.12.0",
+        "sequelize": "^6.37.5",
+        "sqlite3": "^5.1.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "sequelize-cli": "^6.6.2"
+    }
+}
